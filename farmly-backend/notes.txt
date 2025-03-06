@@ -1,0 +1,12 @@
+# Run tests
+pytest tests/ -xvs
+
+# alembic
+alembic revision --autogenerate -m "init eport"
+alembic upgrade head
+
+# run app in development
+fastapi dev main.py
+
+# run app in development
+fastapi run main.py

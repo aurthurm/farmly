@@ -1,0 +1,15 @@
+# Main python framework
+fastapi[standard]==0.115.11
+# database orm
+SQLAlchemy==2.0.38
+# data validation and serialisation
+pydantic==2.10.6
+pydantic-settings==2.8.1
+# batteries inclused orm features :
+# get v2.1.0 mixins from github since pypi is behind
+sqlalchemy_mixins@git+https://github.com/absent1706/sqlalchemy-mixins@v2.1.0
+# database migrations
+Alembic==1.15.1
+# Security
+ passlib==1.7.4
+ python-jose==3.4.0
